@@ -4,11 +4,11 @@ import { useForm, Form } from '../components/useForm';
 import Controls from '../components/controls/Controls'
 
 const initialFormValues = {
-    email:'test@test.com',
-    password:'123',
-    confirmPassword:'123',
+    email:'',
+    password:'',
+    confirmPassword:'',
     dob:new Date(),
-    phoneNumber:'1234567890'
+    phoneNumber:''
 }
 
 export default function RegisterForm(){
